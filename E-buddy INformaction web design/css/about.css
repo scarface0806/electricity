@@ -1,0 +1,536 @@
+header .banner {
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+    background-image: url("../images/take-control-of-your-energy-usage-\ 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .banner .container-wrapper {
+    /* background-color: rgba(255, 0, 0, 0.192); */
+    height: 75%;
+    display: flex;
+    align-items: center;
+    /* width: 60%; */
+}
+
+header .banner .container-wrapper .banner-body-container {
+    height: 70%;
+    width: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 20px;
+    /* color: white; */
+}
+
+header .banner .container-wrapper .banner-body-container h1 {
+    line-height: 1;
+}
+
+header .banner .container-wrapper .banner-body-container .primary-button {
+    width: 23%;
+}
+
+/* welcome-container */
+.welcome-container {
+    height: 380px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-container .container-wrapper {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    /* justify-content: space-between; */
+}
+
+.welcome-container .container-wrapper .content {
+    height: auto;
+    /* background-color: yellow; */
+    width: 85%;
+}
+
+.welcome-container .container-wrapper .content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: disc;
+    /* background-color: aqua; */
+    /* padding-left: 10px; */
+}
+
+/* special-features */
+.special-features {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: brown; */
+}
+
+.special-features .container-wrapper {
+    height: 85%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.special-features .container-wrapper .cards-container {
+    width: 80%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+.special-features .container-wrapper .cards-container .card {
+    height: 48%;
+    width: 49.3%;
+    background-color: #f5f5f5;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.special-features .container-wrapper .cards-container .card .heading {
+    height: 30%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.special-features .container-wrapper .cards-container .card .heading .icon-container {
+    height: 42px;
+    width: 42px;
+    background-color: #009ff5;
+    border-radius: 10px;
+}
+
+.special-features .container-wrapper .cards-container .card .heading .icon-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*Update-container  */
+.update-container {
+    height: 400px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.update-container .container-wrapper {
+    height: 80%;
+    width: 60%;
+    background-color: #009ff557;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 28px; */
+    justify-content: center;
+}
+
+.update-container .container-wrapper .informaction-container {
+    height: 80%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.update-container .container-wrapper .informaction-container {
+    gap: 8px;
+}
+
+.update-container .container-wrapper .informaction-container p {
+    text-align: center;
+}
+
+.update-container .container-wrapper form {
+    width: 100%;
+    height: 40%;
+    /* background-color: yellow; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.update-container .container-wrapper .mail-address {
+    height: 50%;
+    width: 60%;
+    padding-left: 12px;
+    border-radius: 50px;
+    border-color: #969696;
+}
+
+.update-container .container-wrapper form input {
+    padding: 10px 24px;
+    border-radius: 100px;
+    border: none;
+}
+
+/* pricing */
+.pricing {
+    height: 550px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing .container-wrapper {
+    height: 85%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing .container-wrapper .pricing-container {
+    width: 100%;
+    height: 90%;
+    /* background-color: #009ff5; */
+    display: flex;
+    gap: 12px;
+    align-items: end;
+}
+
+.pricing .container-wrapper .pricing-container .pricing-card {
+    width: 33%;
+    height: 75%;
+    /* background-color: green; */
+    border-radius: 10px;
+    border: 2px solid #009FF5;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pricing .container-wrapper .pricing-container .populer-card {
+    height: 95%;
+    width: 33%;
+    border-radius: 10px;
+    border: 2px solid #009FF5;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(201, 100%, 48%, 0.10);
+}
+
+.pricing .container-wrapper .pricing-container .pricing-card ul {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    height: auto;
+}
+
+/* media quary */
+@media (max-width: 1275px) {
+    .fs-18 {
+        font-size: 16px;
+    }
+
+    .fs-20 {
+        font-size: 18px;
+    }
+
+    .fs-60 {
+        font-size: 52px;
+    }
+
+    .update-container .container-wrapper .informaction-container .container-wrapper p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1180px) {
+    .fs-60 {
+        font-size: 48px;
+    }
+
+    .fs-20 {
+        font-size: 20px;
+    }
+
+    .special-features .container-wrapper .cards-container {
+        width: 85%;
+        height: 85%;
+    }
+
+    .primary-button {
+        padding: 8px 18px;
+        border-radius: 100px;
+        /* background-color: red; */
+        background-color: #009ff5;
+        font-size: 16px;
+        width: auto;
+    }
+}
+
+@media (max-width: 985px) {
+    .primary-button {
+        padding: 8px 16px;
+    }
+
+    .fs-20-semibold {
+        font-size: 18px
+    }
+
+    .fs-18 {
+        font-size: 15px;
+    }
+
+    .fs-40 {
+        font-size: 32px;
+    }
+
+    .special-features .container-wrapper {
+        height: 90%;
+    }
+
+    .special-features .container-wrapper {
+        gap: 12px;
+    }
+
+    .update-container .container-wrapper .informaction-container p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 985px) {
+    .special-features .container-wrapper .cards-container {
+        width: 90%;
+        height: 90%;
+    }
+
+    .fs-32 {
+        font-size: 28px;
+    }
+
+    .fs-60 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 855px) {
+    header .banner {
+        height: 500px;
+    }
+    header .banner .container-wrapper {
+        height: auto;
+    }
+
+    header .banner .container-wrapper .banner-body-container {
+        width: 85%;
+    }
+
+    .special-features .container-wrapper .cards-container .card .heading .icon-container {
+        height: 38px;
+        width: 38px;
+    }
+
+    .pricing .container-wrapper .pricing-container {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 835px) {
+    .primary-button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .fs-60 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 800px) {
+    .fs-60 {
+        font-size: 48px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    header .banner .container-wrapper .banner-body-container .primary-button {
+        width: 30%;
+    }
+
+    .pricing {
+        display: none;
+    }
+
+    .special-features {
+        height: 750px;
+    }
+
+    .special-features .container-wrapper .cards-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .special-features .container-wrapper .cards-container .card {
+        width: 80%;
+        height: auto;
+    }
+
+    .update-container .container-wrapper {
+        height: 80%;
+        width: 80%;
+    }
+
+    .update-container .container-wrapper {
+        height: 80%;
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 660px) {
+    .special-features {
+        height: 800px;
+    }
+
+    .welcome-container {
+        height: 450px;
+    }
+
+    header .banner .container-wrapper .banner-body-container .primary-button {
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .special-features {
+        height: auto;
+    }
+    .update-container .container-wrapper .mail-address {
+        height: 50%;
+        width: 80%;}
+
+    .update-container {
+        height: 400px;
+    }
+
+    .welcome-container {
+        height: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    header .banner .container-wrapper .banner-body-container .primary-button {
+        width: 40%;
+    }
+    .fs-20 {
+        font-size: 18px;
+    }
+
+    .welcome-container {
+        height: 600px;
+        /* background-color: red; */
+    }
+
+    .special-features .container-wrapper .cards-container .card {
+        width: 90%;
+    }
+
+    .update-container .container-wrapper {
+        height: 90%;
+    }
+
+    header .banner {
+        height: 400px;
+
+    }
+    .fs-60 {
+        font-size: 28px;
+    }
+
+    header .banner .container-wrapper {
+        height: 95%;
+    }
+
+    .welcome-container .container-wrapper {
+        gap: 12px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 425px) {
+    header .banner .container-wrapper .banner-body-container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .fs-60 {
+        font-size: 28px;
+    }
+
+    .fs-40 {
+        font-size: 26px;
+        line-height: 1;
+    }
+
+    header .banner {
+        height: 420px;
+    }
+
+    header .banner .container-wrapper .banner-body-container {
+        width: 89%;
+    }
+
+    .welcome-container {
+        height: auto;
+        margin: 24px 0px;
+        /* background-color: red; */
+    }
+
+    .welcome-container .container-wrapper {
+        gap: 12px;
+    }
+
+    .special-features {
+        height: 950px;
+        /* background-color: red; */
+    }
+}

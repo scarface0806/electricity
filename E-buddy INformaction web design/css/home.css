@@ -1,0 +1,1301 @@
+header .banner {
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+    background-image: url("../images/Banner-img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .banner .container-wrapper {
+    /* background-color: rgba(255, 0, 0, 0.192); */
+    height: 75%;
+    /* width: 60%; */
+}
+
+header .banner .container-wrapper .banner-body-container {
+    height: 100%;
+    width: 65%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    /* color: white; */
+}
+
+/* heading */
+header .banner .container-wrapper .banner-body-container .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+header .banner .container-wrapper .banner-body-container .heading .fs-64-semibold {
+    line-height: 1;
+}
+
+/* download */
+header .banner .container-wrapper .banner-body-container .download {
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+
+header .banner .container-wrapper .banner-body-container .download .image-container {
+    width: 50%;
+    /* background-color: rgb(247, 11, 11); */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .banner .container-wrapper .banner-body-container .download .image-container .playstore {
+    width: 45%;
+}
+
+header .banner .container-wrapper .banner-body-container .download .image-container .playstore img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+header .banner .container-wrapper .banner-body-container .download .image-container .appstore img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+header .banner .container-wrapper .banner-body-container .download .image-container .appstore {
+    width: 45%;
+}
+
+/* scaner */
+
+header .banner .container-wrapper .banner-body-container .scaner {
+    height: 33%;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.banner .container-wrapper .banner-body-container .scaner .scaner-img-container {
+    height: 90%;
+    width: 13%;
+    /* background-color: aqua; */
+}
+
+.banner .container-wrapper .banner-body-container .scaner .scaner-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* What we do */
+
+.what-we-do {
+    height: 400px;
+    margin: 24px 0px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-we-do .container-wrapper {
+    /* background-color: aqua; */
+    height: 80%;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.what-we-do .container-wrapper .what-we-do-cards {
+    height: 80%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    gap: 12px;
+}
+
+/* card-2 */
+
+.what-we-do .container-wrapper .what-we-do-cards .card {
+    height: 100%;
+    width: 33%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.what-we-do .container-wrapper .what-we-do-cards .card span{
+display: none;
+}
+
+
+/* .what-we-do .container-wrapper .what-we-do-cards .card p,.what-we-do .container-wrapper .what-we-do-cards .card h3{
+    width: 100%;
+} */
+
+.what-we-do .container-wrapper .what-we-do-cards .card .icon-container {
+    height: 30%;
+    width: 20%;
+    background-color: #009ff5;
+    border-radius: 10px;
+}
+
+.what-we-do .container-wrapper .what-we-do-cards .card .icon-container img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.what-we-do .container-wrapper .what-we-do-cards .card .card-heading {
+    text-align: center;
+    width: 60%;
+}
+
+.what-we-do .container-wrapper .what-we-do-cards .card .card-pharagraph {
+    text-align: center;
+    width: 80%;
+}
+
+.what-we-do .container-wrapper .what-we-do-cards .card .card-2-pharagraph {
+    text-align: center;
+    width: 90%;
+}
+
+/* What we do banner */
+
+.What-we-do-banner {
+    width: 100%;
+    height: 550px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.What-we-do-banner .container-wrapper {
+    height: 85%;
+    /* background-color: black; */
+    display: flex;
+    gap: 20px;
+}
+
+.What-we-do-banner .container-wrapper .banner-left-container {
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.What-we-do-banner .container-wrapper .banner-left-container img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    transition-duration: 0.7s;
+}
+
+.What-we-do-banner .container-wrapper .banner-left-container img:hover {
+    width: 110%;
+    height: 110%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container {
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 12px;
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container .heading-container {
+    height: 20%;
+    /* background-color: rgb(0, 0, 0); */
+    width: 100%;
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container .heading-container .heading-h1 {
+    font-size: 32px;
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container .body-container {
+    height: 60%;
+    /* background-color: rgb(0, 112, 65); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container .body-container .line {
+    /* background-color: rgb(49, 211, 34); */
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container .body-container .line .icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #009ff5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container .body-container .line .icon i {
+    font-size: 18px;
+    color: white;
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container .body-container .line p {
+    /* font-size: 18px;
+    color: white; */
+    height: 100%;
+    width: 90%;
+    /* background-color: red; */
+}
+
+.What-we-do-banner .container-wrapper .banner-right-container a {
+    color: #009ff5;
+    text-decoration: underline;
+}
+
+
+/* Key features */
+.key-features {
+    height: 650px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key-features .container-wrapper {
+    height: 90%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.key-features .container-wrapper .key-heading {
+    text-align: center;
+}
+
+/* cards */
+
+.key-features .container-wrapper .cards-container {
+    height: 88%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.key-features .container-wrapper .cards-container .cards {
+    width: 24%;
+    height: 49%;
+    /* background-color: blue; */
+    overflow: hidden;
+    border: 2px solid #009ff5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px;
+}
+
+.key-features .container-wrapper .cards-container .cards .heading {
+
+    width: 95%;
+    height: 20%;
+    /* background-color: rgb(238, 7, 149); */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.key-features .container-wrapper .cards-container .cards .heading .icon {
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #009ff5;
+}
+
+.key-features .container-wrapper .cards-container .cards .heading .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.key-features .container-wrapper .cards-container .cards .link .card-link {
+    color: #009ff5;
+    text-decoration: underline;
+}
+
+.key-features .container-wrapper .cards-container .cards .heading .key-card-heading {
+    width: 75%;
+    /* background-color: red; */
+}
+
+
+.key-features .container-wrapper .cards-container .cards .body {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(66, 218, 28); */
+    height: 60%;
+}
+
+.key-features .container-wrapper .cards-container .cards .link {
+    width: 95%;
+    /* background-color: rgb(15, 238, 7); */
+    height: 10%;
+}
+
+/* Project */
+.project {
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.project .container-wrapper {
+    height: 75%;
+    background-color: #009ff5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project .container-wrapper .project-card {
+    width: 25%;
+    height: 100%;
+    /* background-color: 009ff5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.project .container-wrapper .project-card h1 {
+    line-height: 1;
+}
+
+.project .container-wrapper .project-card .project-card-body {
+    text-align: center;
+}
+
+/* Faq question */
+
+.faq-question {
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-question .container-wrapper {
+    height: 80%;
+    width: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-question .container-wrapper .questions-container {
+    width: 100%;
+    height: 85%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.faq-question .container-wrapper .questions-container .question {
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    border-bottom: 1px solid #2b2b2b40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-question .container-wrapper .questions-container .question .icon {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    /* background-color: aliceblue; */
+    border: 2px solid #009ff5;
+}
+
+.faq-question .container-wrapper .questions-container .question .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Review */
+
+.review {
+    width: 100%;
+    height: 360px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review .container-wrapper {
+    height: 85%;
+    /* background-color: yellow; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.review .container-wrapper .customers-container {
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* review cards */
+.review .container-wrapper .customers-container .coustomer {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(17, 175, 228); */
+    border-radius: 10px;
+    border: 1px solid #545454;
+    overflow: hidden;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile {
+    width: 100%;
+    height: 24%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .profile {
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    /* justify-content: space-between; */
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .profile .customer-informaction {
+    /* width:70%; */
+    height: 100%;
+    /* background-color: #545454; */
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    /* justify-content: space-between; */
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .profile .customer-informaction .img-container {
+    width: 38px;
+    height: 38px;
+    background-color: yellow;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .profile .customer-informaction .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .verified {
+    width: 24px;
+    height: 24px;
+    /* background-color: #DDDAED; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .verified img {
+    height: 150%;
+    width: 150%;
+    object-fit: fill;
+    object-position: center;
+}
+
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .stars {
+    width: 30%;
+    height: 100%;
+    /* background-color: red;    */
+    display: flex;
+    align-items: center;
+    /* gap: 2px; */
+    /* justify-content: space-between; */
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .stars .star {
+    width: 28px;
+    height: 28px;
+    /* background-color: yellow; */
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-profile .stars .star img {
+    height: 100%;
+    width: 100%;
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-body {
+    width: 100%;
+    height: 63%;
+    /* background-color: rgb(107, 130, 204); */
+}
+
+.review .container-wrapper .customers-container .coustomer .customer-card-link {
+    width: 100%;
+    height: 12%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* downoad-message */
+.download-message {
+    height: 350px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-message .container-wrapper {
+    height: 80%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.download-message .container-wrapper h1 {
+    text-align: center;
+}
+
+.download-message .container-wrapper .button-container {
+    width: 30%;
+    height: 20%;
+
+    /* background-color: yellow;     */
+}
+
+.download-message .container-wrapper .button-container .footer-button {
+    width: 100%;
+    height: 100%;
+}
+
+/*  media  */
+
+
+
+@media (max-width: 1324px) {
+    .fs-20 {
+        font-size: 16px
+    }
+
+    .fs-20-semibold {
+        font-size: 18px;
+    }
+
+    /* header .banner .container-wrapper {
+        /* background-color: rgba(255, 0, 0, 0.192); */
+        /* height: 95%; */
+    } */
+
+    .banner .container-wrapper .banner-body-container .scaner .scaner-img-container {
+        height: 90%;
+        width: 17%;
+    }
+
+    .what-we-do .container-wrapper {
+        height: 85%;
+    }
+
+    .primary-button {
+        padding: 8px 16px;
+    }
+
+    .what-we-do {
+        height: 380px;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card .icon-container {
+        height: 30%;
+    }
+
+
+
+@media (max-width: 1260px) {
+    .fs-64-semibold {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 1226px) {
+    .fs-20-semibold {
+        font-size: 16px;
+    }
+
+    .fs-16 {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 1215px) {
+    .what-we-do .container-wrapper .what-we-do-cards .card {
+        height: 100%;
+        width: 33%
+    }
+
+    .What-we-do-banner .container-wrapper .banner-right-container .heading-container .heading-h1 {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width: 1180px) {
+    .What-we-do-banner .container-wrapper .banner-right-container .heading-container .heading-h1 {
+        font-size: 28px;
+    }
+
+    .banner .container-wrapper .banner-body-container .scaner .scaner-img-container {
+        height: 90%;
+        width: 20%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .fs-16 {
+        font-size: 15px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    header nav .container-wrapper {
+        height: 100px;
+        padding: 5px0px;
+    }
+
+    header .banner {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .primary-button {
+        padding: 6px 16px;
+    }
+
+    .banner .container-wrapper .banner-body-container .scaner .scaner-img-container {
+        height: 70%;
+        width: 14%;
+    }
+
+    header .banner .container-wrapper .banner-body-container {
+        height: auto;
+        gap: 4px;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card .icon-container {
+        height: 20%;
+        width: 18%;
+    }
+
+    .What-we-do-banner .container-wrapper .banner-right-container {
+        gap: 38px;
+    }
+
+    .key-features .container-wrapper .cards-container .cards .heading .key-card-heading {
+        width: 100%;
+    }
+    .what-we-do .container-wrapper .what-we-do-cards .card .card-heading {
+        width: 70%;
+    }
+
+    .fs-20-semibold {
+        font-size: 16px;
+    }
+
+    .key-features .container-wrapper .cards-container .cards {
+        padding: 0px;
+    }
+
+    .key-features .container-wrapper .cards-container .cards .heading .icon {
+        height: 50px;
+        width: 75px;
+    }
+
+    .fs-64-semibold {
+        font-size: 48px;
+    }
+
+    .banner .container-wrapper .banner-body-container .scaner .scaner-img-container {
+        height: 90%;
+        width: 20%;
+    }
+
+}
+
+@media (max-width: 1037px) {
+    .fs-16 {
+        font-size: 14px;
+    }
+
+
+    .banner .container-wrapper .banner-body-container .scaner .scaner-img-container {
+        height: 70%;
+        width: 18%;
+    }
+
+    .fs-64-semibold {
+        font-size: 46px;
+        font-weight: 600;
+    }
+
+    .banner .container-wrapper .banner-body-container .scaner .scaner-img-container {
+        height: 60%;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card p {
+        font-size: 15px;
+    }
+
+    .key-features .container-wrapper .cards-container .cards .heading .icon {
+        height: 75%;
+        width: 20%;
+    }
+}
+
+@media (max-width: 1016px) {
+    .what-we-do .container-wrapper .what-we-do-cards .card p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .key-features {
+        height: auto;
+        align-items: start;
+        margin-top: 24px;
+        margin-bottom: 24px;
+
+    }
+
+    .key-features .container-wrapper {
+        height: 80%;
+        margin-top: 20px;
+        /* background-color: yellow; */
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards {
+        gap: 8px;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards span {
+        display: none;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card {
+        gap: 8px;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card .icon-container {
+        height: 62px;
+        width: 62px;
+    }
+
+
+    .key-features .container-wrapper .cards-container {
+        height: 90%;
+        gap: 12px;
+    }
+
+    .key-features .container-wrapper .cards-container .cards {
+        width: 46%;
+        height: 25%;
+        padding: 6px;
+        /* background-color: blue; */
+    }
+
+    .key-features .container-wrapper .cards-container .cards .heading .icon {
+        height: 85%;
+        width: 25%;
+    }
+
+    .key-features .container-wrapper .cards-container .cards .heading {
+        width: 95%;
+        height: 40%;
+    }
+
+    .key-features .container-wrapper {
+        gap: 20px;
+    }
+
+    .faq-question {
+        width: 100%;
+        height: 500px;
+    }
+
+    .faq-question .container-wrapper {
+        height: 80%;
+        width: 80%;
+    }
+
+    .download-message {
+        height:aut0;
+        margin: 24px 0px;
+    }
+
+    .download-message .container-wrapper .button-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    header .banner .container-wrapper .banner-body-container .heading {
+        width: 100%;
+    }
+
+    .key-features .container-wrapper .cards-container {
+        height: 90%;
+        gap: 8px;
+    }
+
+    .cards .heading {
+        height: auto;
+        /* background-color: red; */
+    }
+
+    .key-features .container-wrapper .cards-container .cards .body {
+        height: auto;
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .fs-64-semibold {
+        font-size: 46px
+    }
+
+    .fs-28 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .fs-40 {
+        font-size: 32px
+    }
+
+    .what-we-do {
+        height: 400px;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card {
+        height: 100%;
+        width: 50%;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards span {
+        display: none;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card .card-heading {
+        text-align: center;
+        width: 100%;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card .icon-container {
+        height: 52px;
+        width: 52px;
+    }
+
+    .what-we-do .container-wrapper .what-we-do-cards .card-three {
+        display: none;
+    }
+    .what-we-do  {
+        height: 260px;
+
+    }
+    .What-we-do-banner .container-wrapper .banner-right-container .heading-container {
+        height: auto;}
+
+    .What-we-do-banner .container-wrapper .banner-left-container {
+        display: none;
+    }
+
+    .What-we-do-banner .container-wrapper .banner-right-container {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .What-we-do-banner {
+        width: 100%;
+        height: 400px;
+    }
+
+    .What-we-do-banner .container-wrapper {
+        height: 100%;
+    }
+
+    .What-we-do-banner .container-wrapper .banner-right-container {
+        gap: 20px;
+    }
+
+    .faq-question {
+        width: 100%;
+        height: 600px;
+    }
+
+
+    .faq-question .container-wrapper {
+        height: 80%;
+        width: 85%
+    }
+
+    .review {
+        height: auto;
+    }
+
+    .review .container-wrapper {
+        height: 100%;
+    }
+
+    .review .container-wrapper .customers-container {
+        width: 100%;
+        height: 80%;
+        /* background-color: blue; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .review .container-wrapper .customers-container .coustomer {
+        width: 90%;
+        height: auto;
+    }
+
+    .download-message .container-wrapper {
+        height: auto;
+        gap: 24px;
+    }
+
+    .project {
+        width: 100%;
+        height: 200px
+    }
+
+    .project .container-wrapper {
+        height: 100%;
+    }
+
+    .project .container-wrapper .project-card {
+        width: 32%
+    }
+
+}
+
+@media (max-width: 700px) {
+    .key-features .container-wrapper .cards-container .cards .body {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+    .fs-64-semibold {
+        font-size: 48px;
+    }
+
+    .fs-20 {
+        font-size: 18px;
+    }
+
+    .fs-28 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    header nav .container-wrapper ul {
+        font-size: 18px;
+    }
+
+    header .banner {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .key-features {
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .key-features .container-wrapper .cards-container .cards .link {
+        display: none;
+    }
+
+    .key-features .container-wrapper .cards-container .cards {
+        width: 70%
+    }
+
+    .key-features .container-wrapper .cards-container .cards .heading .icon {
+        width: 52px;
+        height: 46px;
+    }
+
+    .key-features .container-wrapper .cards-container .cards .heading {
+        display: flex;
+        gap: 8px;
+    }
+
+    .key-features .container-wrapper .cards-container .cards {
+        padding: 8px;
+    }
+    .key-features .container-wrapper .cards-container {
+        height: 90%;
+        gap: 12px;
+    }
+    .project .container-wrapper {
+        width: 100%;
+    }
+        .project .container-wrapper .card-member {
+            display: none;}
+}
+
+@media (max-width: 495px) {
+    header .banner {
+        width: 100%;
+        height: 450px;
+    }
+
+    .faq-question .container-wrapper {
+        height: 80%;
+        width: 90%
+    }
+    .what-we-do {
+        height: auto;
+        padding: 24px 0px;
+    }
+    .what-we-do .container-wrapper {
+        gap: 12px;
+    }
+    .what-we-do .container-wrapper .what-we-do-cards .card {
+        width: 80%;
+    }
+    .what-we-do .container-wrapper .what-we-do-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-question .container-wrapper .questions-container .question .icon {
+        display: none;
+    }
+    .faq-question {
+        width: 100%;
+       height: auto;
+        padding: 24px 0px;
+    }
+    .faq-question .container-wrapper .questions-container {
+        gap: 28px;
+    }
+    .key-features .container-wrapper .cards-container .cards {
+        padding: 8px;
+        width: 80%;
+    }
+    .key-features .container-wrapper .cards-container .cards .heading .icon {
+        width: 46px;
+        height: 38px;
+    }
+    .review {
+        height: auto;
+        margin: 24px 0px;
+    }
+
+}
+
+@media (max-width: 434px) {
+    .fs-64-semibold {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .fs-40 {
+        font-size: 26px;
+    }
+
+    header .banner {
+        height: 350px;
+    }
+
+    header .banner .container-wrapper .banner-body-container {
+        /* height: 100%; */
+        width: 82%;
+        gap: 8px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+
+    .fs-64-semibold {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .fs-28 {
+        font-size: 18px;
+    }
+
+    .fs-20 {
+        font-size: 15px;
+    }
+
+    .fs-40 {
+        font-size: 28px
+    }
+
+    header nav .container-wrapper {
+        height: 55px;
+    }
+
+    header .banner {
+        width: 100%;
+        height: 400px;
+        padding-bottom: 10px;
+    }
+
+    header .banner .container-wrapper .banner-body-container {
+        height: 90%;
+        width: 85%;
+        /* justify-content: space-between; */
+    }
+
+    header .banner {
+        width: 100%;
+        height: 400px;
+    }
+
+    .banner .container-wrapper .banner-body-container .scaner .scaner-img-container {
+        height: 95%;
+        width: 25%;
+        background-color: red;
+    }
+
+    header .banner .container-wrapper .banner-body-container .scaner {
+        justify-content: space-evenly;
+    }
+
+    header .banner .container-wrapper .banner-body-container .download {
+        height: 30%;
+    }
+
+    header .banner .container-wrapper .banner-body-container .download .image-container {
+        width: 50%;
+    }
+
+    .download-message {
+        height: auto;
+        margin: 24px 0px;
+    }
+
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+    .What-we-do-banner {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 375px) {
+    header .banner {
+        height: 391px;
+    }
+}
